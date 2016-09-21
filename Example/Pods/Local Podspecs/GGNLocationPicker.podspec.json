@@ -1,0 +1,22 @@
+{
+  "name": "GGNLocationPicker",
+  "version": "0.1.0",
+  "summary": "A short description of GGNLocationPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GGNLocationPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Garric Nahapetian": "garricn@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GGNLocationPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GGNLocationPicker/Classes/**/*"
+}
