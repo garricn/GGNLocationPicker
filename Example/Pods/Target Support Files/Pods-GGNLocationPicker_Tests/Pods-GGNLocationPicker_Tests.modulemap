@@ -1,6 +1,0 @@
-framework module Pods_GGNLocationPicker_Tests {
-  umbrella header "Pods-GGNLocationPicker_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

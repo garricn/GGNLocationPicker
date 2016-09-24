@@ -12,7 +12,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7955C0E8BA9596EA931F39D5 /* Pods_GGNLocationPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF70FA66837186CB5C00655 /* Pods_GGNLocationPicker_Example.framework */; };
-		D4B68F8E3BD685D50A2671C6 /* Pods_GGNLocationPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2DE6A19A18EEFA2F9AB7C6 /* Pods_GGNLocationPicker_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +37,9 @@
 		607FACE51AFB9204008FA782 /* GGNLocationPicker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGNLocationPicker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63A345DB05F8273311C25F83 /* Pods-GGNLocationPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGNLocationPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GGNLocationPicker_Tests/Pods-GGNLocationPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		694F506400F2B2518142AB19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9FE861077E1E5E786B42CB83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE2DE6A19A18EEFA2F9AB7C6 /* Pods_GGNLocationPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGNLocationPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA29B8A10A70BAA132FC36D9 /* Pods-GGNLocationPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGNLocationPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GGNLocationPicker_Tests/Pods-GGNLocationPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B68F8E3BD685D50A2671C6 /* Pods_GGNLocationPicker_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +134,6 @@
 			children = (
 				58F9EEB850F86668B844E0B8 /* Pods-GGNLocationPicker_Example.debug.xcconfig */,
 				256A6B8246F8DA594895FB44 /* Pods-GGNLocationPicker_Example.release.xcconfig */,
-				63A345DB05F8273311C25F83 /* Pods-GGNLocationPicker_Tests.debug.xcconfig */,
-				EA29B8A10A70BAA132FC36D9 /* Pods-GGNLocationPicker_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -489,7 +483,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63A345DB05F8273311C25F83 /* Pods-GGNLocationPicker_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -505,7 +498,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA29B8A10A70BAA132FC36D9 /* Pods-GGNLocationPicker_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
