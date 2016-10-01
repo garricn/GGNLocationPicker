@@ -310,37 +310,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18F609A1315681AD19E19AF7D61FDDF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971C69E4800BC36102C403E4FF15D0F8 /* GGNLocationPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GGNLocationPicker/GGNLocationPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGNLocationPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGNLocationPicker/GGNLocationPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GGNLocationPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		226526479C52CB3C5C65A55D3B907154 /* Release */ = {
+		1509E35667C92568C200B22BBC1F849B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 971C69E4800BC36102C403E4FF15D0F8 /* GGNLocationPicker.xcconfig */;
 			buildSettings = {
@@ -363,6 +333,7 @@
 				PRODUCT_NAME = GGNLocationPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -411,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		A3E346F1C0BB45FD9574E0512CC0D3C8 /* Release */ = {
+		80481A16B1C3A7959113C1684368441B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75073324D9BD680183EE037CB930ED7E /* Pods-GGNLocationPicker_Example.release.xcconfig */;
 			buildSettings = {
@@ -438,11 +409,47 @@
 				PRODUCT_NAME = Pods_GGNLocationPicker_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		A62A8343FD8C126A2AA05BF811A5DAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EDF83739EC0A3832A3FDC888CCAB1A /* Pods-GGNLocationPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GGNLocationPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGNLocationPicker_Example/Pods-GGNLocationPicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GGNLocationPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -482,9 +489,9 @@
 			};
 			name = Release;
 		};
-		C1654536C67DAD5EE9CE85F253F9CA71 /* Debug */ = {
+		C4ACBBDEAFEF853FECD790E9071BAFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72EDF83739EC0A3832A3FDC888CCAB1A /* Pods-GGNLocationPicker_Example.debug.xcconfig */;
+			baseConfigurationReference = 971C69E4800BC36102C403E4FF15D0F8 /* GGNLocationPicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -495,21 +502,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GGNLocationPicker_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GGNLocationPicker/GGNLocationPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGNLocationPicker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGNLocationPicker_Example/Pods-GGNLocationPicker_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GGNLocationPicker/GGNLocationPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GGNLocationPicker_Example;
+				PRODUCT_NAME = GGNLocationPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -531,8 +535,8 @@
 		5E8F8CE5831F168CF75D0DE129E8562A /* Build configuration list for PBXNativeTarget "Pods-GGNLocationPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1654536C67DAD5EE9CE85F253F9CA71 /* Debug */,
-				A3E346F1C0BB45FD9574E0512CC0D3C8 /* Release */,
+				A62A8343FD8C126A2AA05BF811A5DAD4 /* Debug */,
+				80481A16B1C3A7959113C1684368441B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -540,8 +544,8 @@
 		79F76085EEDF19C15E82D59F0BDFA4FB /* Build configuration list for PBXNativeTarget "GGNLocationPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F609A1315681AD19E19AF7D61FDDF0 /* Debug */,
-				226526479C52CB3C5C65A55D3B907154 /* Release */,
+				C4ACBBDEAFEF853FECD790E9071BAFD9 /* Debug */,
+				1509E35667C92568C200B22BBC1F849B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
