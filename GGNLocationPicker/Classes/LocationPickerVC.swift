@@ -24,9 +24,22 @@ public final class LocationPickerVC: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.toolbarHidden = false
+
+        if presentingViewController != nil {
+            navigationItem.rightBarButtonItem = UIBarButtonItem(
+                barButtonSystemItem: .Cancel,
+                target: self,
+                action: #selector(cancelButtonTapped)
+            )
+        }
+
         setToolbarItems()
         mapView.showsUserLocation = viewModel.shouldShowUserLocation
         mapView.delegate = self
+    }
+
+    func cancelButtonTapped(sender: UIBarButtonItem) {
+        parentViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
 
     private func setToolbarItems() {
