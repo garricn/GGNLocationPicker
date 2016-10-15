@@ -36,6 +36,10 @@ public final class LocationPickerVC: UIViewController {
         setToolbarItems()
         mapView.showsUserLocation = viewModel.shouldShowUserLocation
         mapView.delegate = self
+
+        viewModel.alertOutput.observe { [weak self] alert in
+            self?.presentViewController(alert, animated: true, completion: nil)
+        }
     }
 
     func cancelButtonTapped(sender: UIBarButtonItem) {
@@ -173,9 +177,9 @@ extension LocationPickerVC: UISearchBarDelegate {
 
 extension LocationPickerVC {
     @objc private func userLocationButtonTapped() {
-        viewModel.userLocationRequested { shouldShowUserLocation in
+        viewModel.userLocationRequested { [weak self] shouldShowUserLocation in
             guard shouldShowUserLocation else { return }
-            self.mapView.setUserTrackingMode(.Follow, animated: true)
+            self?.mapView.setUserTrackingMode(.Follow, animated: true)
         }
     }
 }
