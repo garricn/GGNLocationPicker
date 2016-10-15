@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GGNLocationPicker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Easily present a view controller for picking a location.'
   s.homepage         = 'https://github.com/garricn/GGNLocationPicker'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
