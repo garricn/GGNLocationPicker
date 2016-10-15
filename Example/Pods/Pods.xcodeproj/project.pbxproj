@@ -42,6 +42,7 @@
 		4A2EF0E72836C8432665C044C67933EA /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919E006D8AD5BDDA891839BF797D2B7 /* String+FileName.swift */; };
 		4AF6C26A30D865059C24DC5317786B76 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6AF1AB45E76B352DD93ACE676230A /* BeNil.swift */; };
 		4E5A721963877AA3A6AA3D80DAA4E5E9 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C8E711729FB4599F51C263CB8965D /* AssertionRecorder.swift */; };
+		4EE9C5201DB1FEE20095812C /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9C51E1DB1FDA90095812C /* Observable.swift */; };
 		5104AE2989305145BF446E633B567924 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772D3E5AF34E2F6DC985845FB3489AF /* EndWith.swift */; };
 		5333BE5F091A4451703642DA4B07E33C /* Pods-GGNLocationPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6EEDAC58F131075881D08A908CAC45 /* Pods-GGNLocationPicker_Example-dummy.m */; };
 		5438871833E759C86C2CA743AD3EF2DD /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD9B4FF295C9E0487B426B9968F28B /* World.swift */; };
@@ -253,6 +254,7 @@
 		4D582674A6983604C34B81F809F76255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4E1FE1C67560DD99761EFCE794E643E4 /* Pods-GGNLocationPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGNLocationPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4E5DBF0F865B08DBDCFC9C883B49C81C /* SearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		4EE9C51E1DB1FDA90095812C /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		5038A9C14E90AA451724DCD0D3FCA8BA /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		51620E78164B8DDCA89F94D8870C1CA2 /* GGNLocationPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGNLocationPicker-prefix.pch"; sourceTree = "<group>"; };
 		599644A4F7E0D425F0BAAE68F5028FBE /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -724,6 +726,7 @@
 				214B9EBDE6CA2BE47F21D13D8F1E25EC /* LocationPickerVM.swift */,
 				02FDD7463BCEDE5E344517A946E21CC5 /* LocationService.swift */,
 				4E5DBF0F865B08DBDCFC9C883B49C81C /* SearchService.swift */,
+				4EE9C51E1DB1FDA90095812C /* Observable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1157,6 +1160,7 @@
 				94A3984AC039E7CE7FD3FCFCD02A1C20 /* GGNLocationPicker-dummy.m in Sources */,
 				CB78965F5B8098B6F93BFE533DCE957D /* LocationPickerDelegate.swift in Sources */,
 				F0CDBDD0AC59873364FD7C76DDB97306 /* LocationPickerVC.swift in Sources */,
+				4EE9C5201DB1FEE20095812C /* Observable.swift in Sources */,
 				B11EC18EE01847DD3336989C7A9495D4 /* LocationPickerVM.swift in Sources */,
 				1A4A1A6FD537222AB78FE70E58246F62 /* LocationService.swift in Sources */,
 				DEFE367EB1AD74FBC04FE71A158A3EA3 /* SearchService.swift in Sources */,
