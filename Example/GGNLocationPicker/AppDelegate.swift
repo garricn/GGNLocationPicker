@@ -16,7 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        let locationPicker = LocationPickerVC()
+        let coordinate = CLLocationCoordinate2D(latitude: 34.0, longitude: -118.24)
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = coordinate
+        annotation.title = "Hello, World!"
+        let locationPicker = LocationPickerVC(annotationToShowOnLoad: annotation)
 
         locationPicker.pickerDelegate = self
         locationPicker.didPickLocation = { annotation in
