@@ -9,5 +9,5 @@
 import MapKit
 
 public protocol LocationPickerDelegate: class {
-    func didPickLocation(with annotation: MKAnnotation)
+    func didPick(annotation: MKAnnotation)
 }
