@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let locationPicker = LocationPickerVC(annotationToShowOnLoad: annotation)
 
         locationPicker.pickerDelegate = self
-        locationPicker.didPickLocation = { annotation in
+        locationPicker.didPick = { annotation in
             print(annotation)
         }
 
@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate: LocationPickerDelegate {
-    func didPickLocation(with annotation: MKAnnotation) {
+    func didPick(annotation: MKAnnotation) {
         print(annotation)
     }
 }

@@ -15,7 +15,11 @@ struct SearchService {
         request.region = region(from: location)
         let search = MKLocalSearch(request: request)
         search.startWithCompletionHandler { respone, error in
-            guard let response = respone else { return }
+            guard
+                let response = respone
+                where response.mapItems.count > 0
+                else { return }
+
             dispatch_async(dispatch_get_main_queue()) {
                 completion(response)
             }

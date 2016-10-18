@@ -7,13 +7,16 @@
 //
 
 class Observable<T> {
-    var completion: ((T) -> Any)?
+    typealias Closure = ((T) -> Void)?
+    var closures: [Closure] = []
 
-    func observe(completion: (T) -> Any) {
-        self.completion = completion
+    func onNext(perform closure: Closure) {
+        self.closures.append(closure)
     }
 
-    func next(event: T) {
-        completion?(event)
+    func emit(event: T) {
+        closures.forEach { emit in
+            emit?(event)
+        }
     }
 }
