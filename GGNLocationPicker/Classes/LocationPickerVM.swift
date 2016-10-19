@@ -1,12 +1,14 @@
 //
+//  GGNLocationPicker
+//
 //  LocationPickerVM.swift
-//  Pods
 //
 //  Created by Garric Nahapetian on 8/21/16.
 //
 //
 
 import MapKit
+import GGNObservable
 
 class LocationPickerVM {
     let output = Observable<MKAnnotation>()

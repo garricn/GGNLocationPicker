@@ -1,6 +1,7 @@
 //
+//  GGNLocationPicker
+//
 //  LocationPickerDelegate.swift
-//  Pods
 //
 //  Created by Garric Nahapetian on 8/21/16.
 //

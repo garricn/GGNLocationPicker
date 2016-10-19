@@ -1,6 +1,7 @@
 //
-//  LocationPickerViewController.swift
-//  Pods
+//  GGNLocationPicker
+//
+//  LocationPickerVC.swift
 //
 //  Created by Garric Nahapetian on 8/20/16.
 //

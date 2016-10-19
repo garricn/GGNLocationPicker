@@ -1,6 +1,6 @@
+//  GGNLocationPicker
 //
 //  SearchService.swift
-//  Pods
 //
 //  Created by Garric Nahapetian on 9/9/16.
 //
