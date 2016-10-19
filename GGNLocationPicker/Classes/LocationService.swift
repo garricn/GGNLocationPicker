@@ -1,12 +1,14 @@
 //
+//  GGNLocationPicker
+//
 //  LocationService.swift
-//  Pods
 //
 //  Created by Garric Nahapetian on 8/22/16.
 //
 //
 
 import CoreLocation
+import GGNObservable
 
 class LocationService: NSObject, CLLocationManagerDelegate {
     let authorizedOutput = Observable<Bool>()
