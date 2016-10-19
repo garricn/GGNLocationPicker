@@ -10,8 +10,21 @@
 import UIKit
 import MapKit
 
+/// The LocationPickerVC class is a sub-class of UIViewController. It is not meant to be sub-classed. Use an instance of this class to easily present or push a view controller for searching and picking a location.
 public final class LocationPickerVC: UIViewController {
+    // MARK: - Properties
+    /**
+     The delegate of the LocationPickerVC object.
+    */
     public weak var pickerDelegate: LocationPickerDelegate?
+
+    /**
+     An optional closure that takes an object conforming to MKAnnotation and returns void. This closure is called when the user taps the + button of the callout accessory of an MKAnnotationView.
+     
+     - parameter: An object conforming to MKAnnotation
+     
+     - Returns: Void
+    */
     public var didPick: ((MKAnnotation) -> Void)?
 
     private let viewModel = LocationPickerVM()
@@ -19,8 +32,14 @@ public final class LocationPickerVC: UIViewController {
     private var userLocation: MKUserLocation { return mapView.userLocation }
     private var annotationToShowOnLoad: MKAnnotation? = nil
 
-    public init(annotationToShowOnLoad: MKAnnotation? = nil) {
-        self.annotationToShowOnLoad = annotationToShowOnLoad
+    // MARK: - Initialization
+    /**
+     Initializes a LocationPickerVC with an annotation to show on present or push. The default is nil.
+     
+     - parameter annotation: An object conforming to MKAnnotation
+    */
+    public init(with annotation: MKAnnotation? = nil) {
+        self.annotationToShowOnLoad = annotation
         super.init(nibName: nil, bundle: nil)
     }
 
@@ -32,7 +51,7 @@ public final class LocationPickerVC: UIViewController {
         view = mapView
     }
 
-    public override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.toolbarHidden = false
 
@@ -133,19 +152,19 @@ public final class LocationPickerVC: UIViewController {
 
 // MARK: - Map View delegate
 extension LocationPickerVC: MKMapViewDelegate {
-    public func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+    private func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
         return viewModel.annotationView(fore: annotation, of: mapView)
     }
 
-    public func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+    private func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
         viewModel.didSelect(view, of: mapView)
     }
 
-    public func mapView(mapView: MKMapView, didAddAnnotationViews views: [MKAnnotationView]) {
+    private func mapView(mapView: MKMapView, didAddAnnotationViews views: [MKAnnotationView]) {
         viewModel.didAdd(views, to: mapView)
     }
 
-    public func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+    private func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         viewModel.didTap(control, of: view, of: mapView)
     }
 }
@@ -156,7 +175,7 @@ extension LocationPickerVC: UISearchBarDelegate {
         viewModel.searchButtonTapped(from: self)
     }
 
-    public func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    private func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         viewModel.didTapSearchButton(of: searchBar, of: mapView)
         dismissViewControllerAnimated(true, completion: nil)
     }
@@ -168,11 +187,11 @@ extension LocationPickerVC {
         viewModel.userLocationButtonTapped()
     }
 
-    func handle(longPress: UILongPressGestureRecognizer) {
+    @objc private func handle(longPress: UILongPressGestureRecognizer) {
         viewModel.handle(longPress, on: mapView)
     }
 
-    func cancelButtonTapped(sender: UIBarButtonItem) {
+    @objc private func cancelButtonTapped(sender: UIBarButtonItem) {
         parentViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
 }

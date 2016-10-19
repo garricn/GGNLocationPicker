@@ -1,0 +1,26 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Garric/Developer/GGNLocationPicker/GGNLocationPicker/Classes/LocationPickerVC.swift",
+      "line": 46,
+      "symbol": "LocationPickerVC.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Garric/Developer/GGNLocationPicker/GGNLocationPicker/Classes/LocationPickerVC.swift",
+      "line": 50,
+      "symbol": "LocationPickerVC.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Garric/Developer/GGNLocationPicker/GGNLocationPicker/Classes/LocationPickerVC.swift",
+      "line": 54,
+      "symbol": "LocationPickerVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Garric/Developer/GGNLocationPicker"
+}

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let annotation = MKPointAnnotation()
         annotation.coordinate = coordinate
         annotation.title = "Hello, World!"
-        let locationPicker = LocationPickerVC(annotationToShowOnLoad: annotation)
+        let locationPicker = LocationPickerVC(with: annotation)
 
         locationPicker.pickerDelegate = self
         locationPicker.didPick = { annotation in
