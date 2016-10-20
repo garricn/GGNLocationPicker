@@ -43,14 +43,17 @@ public final class LocationPickerVC: UIViewController {
         super.init(nibName: nil, bundle: nil)
     }
 
+    /// :nodoc:
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 
+    /// :nodoc:
     override public func loadView() {
         view = mapView
     }
 
+    /// :nodoc:
     override public func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.toolbarHidden = false
@@ -152,19 +155,23 @@ public final class LocationPickerVC: UIViewController {
 
 // MARK: - Map View delegate
 extension LocationPickerVC: MKMapViewDelegate {
-    private func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+    /// :nodoc:
+    public func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
         return viewModel.annotationView(fore: annotation, of: mapView)
     }
 
-    private func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+    /// :nodoc:
+    public func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
         viewModel.didSelect(view, of: mapView)
     }
 
-    private func mapView(mapView: MKMapView, didAddAnnotationViews views: [MKAnnotationView]) {
+    /// :nodoc:
+    public func mapView(mapView: MKMapView, didAddAnnotationViews views: [MKAnnotationView]) {
         viewModel.didAdd(views, to: mapView)
     }
 
-    private func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+    /// :nodoc:
+    public func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         viewModel.didTap(control, of: view, of: mapView)
     }
 }
@@ -175,7 +182,8 @@ extension LocationPickerVC: UISearchBarDelegate {
         viewModel.searchButtonTapped(from: self)
     }
 
-    private func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    /// :nodoc:
+    public func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         viewModel.didTapSearchButton(of: searchBar, of: mapView)
         dismissViewControllerAnimated(true, completion: nil)
     }
