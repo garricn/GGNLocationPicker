@@ -2,8 +2,4 @@ use_frameworks!
 
 target 'GGNLocationPicker_Example' do
   pod 'GGNLocationPicker', :path => '../'
-
-  target 'GGNLocationPicker_Tests' do
-    inherit! :search_paths
-  end
 end

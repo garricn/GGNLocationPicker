@@ -7,25 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030D096B7BEBE7D433AF340F85948DF2 /* LocationPickerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2472A3054F378661AA970C2208DAC5FD /* LocationPickerVM.swift */; };
-		15798CE5772EF5451B79ACF26F033790 /* GGNLocationPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E900DB8E325D0797E79B3B885FC76AD /* GGNLocationPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		171DD1CAAC214543EFB2898A5340B8F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B25B6625600F80699C22B618761ED68 /* Foundation.framework */; };
-		228EFBE55F025632FBB9F5B082967A6A /* GGNObservable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1EC0C5EF0E790D8B34D40F17500B30 /* GGNObservable.framework */; };
-		23B4BADDEDBBF87E148BA7C91144BEC2 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BBD8267EA094A9F6B12A5328DCF7B /* LocationService.swift */; };
+		17E98B2343D38DDE5488FD65DADB5874 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FDD7463BCEDE5E344517A946E21CC5 /* LocationService.swift */; };
 		30BA56FDE827A3B89A54B64E373E2E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B25B6625600F80699C22B618761ED68 /* Foundation.framework */; };
-		32C8B8B190DB52A6DC27F85AD37519A4 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775E6E02254EA9147F3E2D0A2BCA930 /* SearchService.swift */; };
-		37937E120DE6DA07593440BD61E3A6CA /* Pods-GGNLocationPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BE65BA17DF9B83E724864744E5650A /* Pods-GGNLocationPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B447FA30F1A8FB736B7CCA1E6E7EB39 /* GGNObservable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25381EF9E08DC0266C1116E20B16B7C1 /* GGNObservable-dummy.m */; };
-		43E4F707F7A748B64D6A18997A570617 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980A73CE6F1B42322092F4DF2AD1255D /* Observable.swift */; };
-		48A6B7ABCAD9F2158E30779E22F4FCF0 /* Pods-GGNLocationPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBD6461E95A16CF774C5DE75532C382 /* Pods-GGNLocationPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49F20130694BCE9D09C578040A1D4B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B25B6625600F80699C22B618761ED68 /* Foundation.framework */; };
-		4A935166F3058EC793003533B4831DF9 /* Pods-GGNLocationPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3BF452032C3788B27F71F157C2C3E9 /* Pods-GGNLocationPicker_Tests-dummy.m */; };
-		808D1FF3E8B9898C5071B2C1E160AAEB /* GGNObservable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA87C08BE444FA5100983D355AB39811 /* GGNObservable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA79E8C866CB4411ACB7B0648446CCF /* GGNLocationPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5BA8B56599AAC31F242E016174548F /* GGNLocationPicker-dummy.m */; };
-		A1A5E4D28A4D1C5C84D2A42031D73585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B25B6625600F80699C22B618761ED68 /* Foundation.framework */; };
-		BA8A1BF7039A39A9AB02993DF025FC0B /* LocationPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87F8195EBA88AF1EC8BEB5F4E098656 /* LocationPickerVC.swift */; };
-		C126F4E86F992AF17E0EB8873A4070E2 /* LocationPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E548C5B5A01C966753CFEE796DCFE524 /* LocationPickerDelegate.swift */; };
-		DC878820CC1723155B8F05EECB4949D0 /* Pods-GGNLocationPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6EEDAC58F131075881D08A908CAC45 /* Pods-GGNLocationPicker_Example-dummy.m */; };
+		48A6B7ABCAD9F2158E30779E22F4FCF0 /* Pods-GGNLocationPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7527EDDCB2DE343349C6CF45B8DFFC /* Pods-GGNLocationPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6350EDEA556631155CA5F1B292838073 /* LocationPickerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B9EBDE6CA2BE47F21D13D8F1E25EC /* LocationPickerVM.swift */; };
+		7274A9E1EA039490F32DC3A46EAF3779 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980A73CE6F1B42322092F4DF2AD1255D /* Observable.swift */; };
+		97B5E5223203B321B7946BBD6F652EB3 /* LocationPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E68CF2AB7623AAE2144453EFACB125 /* LocationPickerDelegate.swift */; };
+		9B5C201767CB5F02CF1E28440959605E /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DBF0F865B08DBDCFC9C883B49C81C /* SearchService.swift */; };
+		A20BDC33942631F72816660B7C3C06B3 /* GGNObservable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1EC0C5EF0E790D8B34D40F17500B30 /* GGNObservable.framework */; };
+		A2BD2EBBCCABDCE9E2BE2967AABB19EB /* GGNObservable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA87C08BE444FA5100983D355AB39811 /* GGNObservable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B154481DA3E135148E8634A97BE2B376 /* GGNLocationPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5BA8B56599AAC31F242E016174548F /* GGNLocationPicker-dummy.m */; };
+		B88780132429F1896CCBF6B7710CBF82 /* GGNLocationPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E900DB8E325D0797E79B3B885FC76AD /* GGNLocationPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4BE616BA8B56F0CABE261F5DA80E4E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B25B6625600F80699C22B618761ED68 /* Foundation.framework */; };
+		D0655EDD35A0A24DD47D0C9C890CF74A /* LocationPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9067D93770DC04C6CD2C0FBF11635885 /* LocationPickerVC.swift */; };
+		D0B83B26AECA8476719CD6C1B355F170 /* GGNObservable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25381EF9E08DC0266C1116E20B16B7C1 /* GGNObservable-dummy.m */; };
+		D3E1E684E09713DA0EA038A6968BC10D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B25B6625600F80699C22B618761ED68 /* Foundation.framework */; };
+		DC878820CC1723155B8F05EECB4949D0 /* Pods-GGNLocationPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B423BFD7DA73FA8B7A91C042A5BAF /* Pods-GGNLocationPicker_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,95 +30,77 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
+			remoteGlobalIDString = 5F54A9F27D1889E4AFBCF4CC4968936B;
 			remoteInfo = GGNLocationPicker;
 		};
 		B776553C1D9F27E4463F40BE1BD7ED32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4517D5197D80A051E55C9C2FD12672EC;
+			remoteGlobalIDString = 5B7E84893320C49A23EC4B199620AC66;
 			remoteInfo = GGNObservable;
 		};
-		E51E2828DA5B079FA96FB47C71B6C27A /* PBXContainerItemProxy */ = {
+		D3E2E476A6FB63B7B7B6D0412BC2C9CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4517D5197D80A051E55C9C2FD12672EC;
+			remoteGlobalIDString = 5B7E84893320C49A23EC4B199620AC66;
 			remoteInfo = GGNObservable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		007910AAFE55EA1459C0366764F25C8C /* GGNLocationPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GGNLocationPicker.modulemap; sourceTree = "<group>"; };
-		00BE65BA17DF9B83E724864744E5650A /* Pods-GGNLocationPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGNLocationPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		02FDD7463BCEDE5E344517A946E21CC5 /* LocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		0ACE4EA75D5483D83545F6A86B8CB651 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E3BF452032C3788B27F71F157C2C3E9 /* Pods-GGNLocationPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGNLocationPicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		12D7BF46C4F70CDBB812C4BC5A02631E /* GGNObservable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGNObservable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1775E6E02254EA9147F3E2D0A2BCA930 /* SearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		0E7527EDDCB2DE343349C6CF45B8DFFC /* Pods-GGNLocationPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGNLocationPicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		17A8AE42DB4B11052A09F5D08FF7F1B6 /* GGNObservable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GGNObservable.modulemap; sourceTree = "<group>"; };
-		1B6EEDAC58F131075881D08A908CAC45 /* Pods-GGNLocationPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGNLocationPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		2472A3054F378661AA970C2208DAC5FD /* LocationPickerVM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationPickerVM.swift; sourceTree = "<group>"; };
+		19024F2F6A43788B44D3D295B71C7C66 /* GGNObservable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGNObservable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		214B9EBDE6CA2BE47F21D13D8F1E25EC /* LocationPickerVM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationPickerVM.swift; sourceTree = "<group>"; };
+		24E68CF2AB7623AAE2144453EFACB125 /* LocationPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationPickerDelegate.swift; sourceTree = "<group>"; };
 		25381EF9E08DC0266C1116E20B16B7C1 /* GGNObservable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGNObservable-dummy.m"; sourceTree = "<group>"; };
 		28ADC303893A06D70270CC5B46494F49 /* GGNObservable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGNObservable-prefix.pch"; sourceTree = "<group>"; };
 		2B25B6625600F80699C22B618761ED68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3CE9FCCFEBEF3FBEB0F1F1E9CD169D9A /* Pods-GGNLocationPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGNLocationPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		33E53391C92D14928806DB87E8BAE250 /* Pods-GGNLocationPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGNLocationPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3E900DB8E325D0797E79B3B885FC76AD /* GGNLocationPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGNLocationPicker-umbrella.h"; sourceTree = "<group>"; };
-		45ACFC2EED402F319F3654E02A157F28 /* Pods_GGNLocationPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGNLocationPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E1FE1C67560DD99761EFCE794E643E4 /* Pods-GGNLocationPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGNLocationPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E5DBF0F865B08DBDCFC9C883B49C81C /* SearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
 		51620E78164B8DDCA89F94D8870C1CA2 /* GGNLocationPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGNLocationPicker-prefix.pch"; sourceTree = "<group>"; };
-		6E73DA28624D553FFC61F335D5DEA726 /* Pods-GGNLocationPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GGNLocationPicker_Example.modulemap"; sourceTree = "<group>"; };
-		77F0DA958813CE8BC0473EE9C3A856B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79EFF071BFAF3094ECB14695E8B878A2 /* Pods-GGNLocationPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGNLocationPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52C914036192AD26EBDE919140985E04 /* Pods-GGNLocationPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGNLocationPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		644B423BFD7DA73FA8B7A91C042A5BAF /* Pods-GGNLocationPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGNLocationPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		718EA0455EB8D3B46DC1A438CF79117E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EDF83739EC0A3832A3FDC888CCAB1A /* Pods-GGNLocationPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGNLocationPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		75073324D9BD680183EE037CB930ED7E /* Pods-GGNLocationPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGNLocationPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		760425B89E23090E9018E106FA843392 /* Pods-GGNLocationPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GGNLocationPicker_Example.modulemap"; sourceTree = "<group>"; };
 		7B1EC0C5EF0E790D8B34D40F17500B30 /* GGNObservable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGNObservable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A572FA88631784871F05C5C96B69AB3 /* GGNObservable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGNObservable.xcconfig; sourceTree = "<group>"; };
-		8B9B489B50EF5243D615D50E4D046EA8 /* Pods-GGNLocationPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGNLocationPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8EBA1BA4371BDD12DE6DAABF0D65C730 /* Pods_GGNLocationPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGNLocationPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9067D93770DC04C6CD2C0FBF11635885 /* LocationPickerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationPickerVC.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		971C69E4800BC36102C403E4FF15D0F8 /* GGNLocationPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGNLocationPicker.xcconfig; sourceTree = "<group>"; };
 		980A73CE6F1B42322092F4DF2AD1255D /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = GGNObservable/Classes/Observable.swift; sourceTree = "<group>"; };
-		A2CAB59147A099AC58C197874354005B /* Pods-GGNLocationPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGNLocationPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A85266DE3029CF2BE64500E051F910C1 /* Pods-GGNLocationPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGNLocationPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ABBC24A26B8594B720383CAB8D5D77D6 /* GGNLocationPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGNLocationPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB793AA81914EBA10265AA6CBB98FA91 /* Pods-GGNLocationPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGNLocationPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		98C36B41A56E9451F874C8DFDD78FFEA /* Pods_GGNLocationPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGNLocationPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6EBDEDC442EE59A245AC3D8C59C1D9 /* GGNLocationPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGNLocationPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5864126204040CD152B53665478B82 /* Pods-GGNLocationPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGNLocationPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BF5BA8B56599AAC31F242E016174548F /* GGNLocationPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGNLocationPicker-dummy.m"; sourceTree = "<group>"; };
-		CC6843B913CB354368CA04D59B87BA58 /* Pods-GGNLocationPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGNLocationPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CEBD6461E95A16CF774C5DE75532C382 /* Pods-GGNLocationPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGNLocationPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		D354BB5334177D54331747470D5F1374 /* Pods-GGNLocationPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGNLocationPicker_Tests-resources.sh"; sourceTree = "<group>"; };
-		DADE6E0DA479F8AB2B63E489D66F1CD9 /* Pods-GGNLocationPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGNLocationPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		E01AF8E6E81ABAE858A46E6DB67A4F4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4E10287F9970AA6804E76C2C32A7DD9 /* Pods-GGNLocationPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGNLocationPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E548C5B5A01C966753CFEE796DCFE524 /* LocationPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationPickerDelegate.swift; sourceTree = "<group>"; };
 		EA87C08BE444FA5100983D355AB39811 /* GGNObservable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGNObservable-umbrella.h"; sourceTree = "<group>"; };
 		EC4038D44C8EF83F632A7E44C04FAC99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF69B53BB98A501E25D2EB81CADAA306 /* Pods-GGNLocationPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGNLocationPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F6D11BA1BDB4568E09E32288500741E1 /* Pods-GGNLocationPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GGNLocationPicker_Tests.modulemap"; sourceTree = "<group>"; };
-		F87F8195EBA88AF1EC8BEB5F4E098656 /* LocationPickerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationPickerVC.swift; sourceTree = "<group>"; };
-		F99BBD8267EA094A9F6B12A5328DCF7B /* LocationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		F0E7F5E30E16FC395838A45159F53D78 /* Pods-GGNLocationPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGNLocationPicker_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28A1C8F792892B38250B898673D7949A /* Frameworks */ = {
+		1F439889B968940C3FB399A6D477E95B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1A5E4D28A4D1C5C84D2A42031D73585 /* Foundation.framework in Frameworks */,
-				228EFBE55F025632FBB9F5B082967A6A /* GGNObservable.framework in Frameworks */,
+				D3E1E684E09713DA0EA038A6968BC10D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B1D117E98A6D28F04A5B1C01B8E714E /* Frameworks */ = {
+		25710E7CC7C79160945C28015EE4C6F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49F20130694BCE9D09C578040A1D4B08 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DBEF8DDD1E25670B89E3BF341EFCE18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				171DD1CAAC214543EFB2898A5340B8F5 /* Foundation.framework in Frameworks */,
+				C4BE616BA8B56F0CABE261F5DA80E4E8 /* Foundation.framework in Frameworks */,
+				A20BDC33942631F72816660B7C3C06B3 /* GGNObservable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,17 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04CB1F5B9F2E548E9B352D85BF8BAE02 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ABBC24A26B8594B720383CAB8D5D77D6 /* GGNLocationPicker.framework */,
-				12D7BF46C4F70CDBB812C4BC5A02631E /* GGNObservable.framework */,
-				45ACFC2EED402F319F3654E02A157F28 /* Pods_GGNLocationPicker_Example.framework */,
-				8EBA1BA4371BDD12DE6DAABF0D65C730 /* Pods_GGNLocationPicker_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1CA8632D2E832F2BA7143EA4B4FD0233 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,21 +138,22 @@
 			path = "../Target Support Files/GGNObservable";
 			sourceTree = "<group>";
 		};
-		3BA1477172D3FA01C22CA4CF3B8178D7 /* Targets Support Files */ = {
+		5F6E092276B146E8729184E60E6B4C17 /* Pods-GGNLocationPicker_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D441B1EA69DD619064D3CE1E8B0E6506 /* Pods-GGNLocationPicker_Example */,
-				B607AB06A21954916304527BD518D061 /* Pods-GGNLocationPicker_Tests */,
+				718EA0455EB8D3B46DC1A438CF79117E /* Info.plist */,
+				760425B89E23090E9018E106FA843392 /* Pods-GGNLocationPicker_Example.modulemap */,
+				33E53391C92D14928806DB87E8BAE250 /* Pods-GGNLocationPicker_Example-acknowledgements.markdown */,
+				52C914036192AD26EBDE919140985E04 /* Pods-GGNLocationPicker_Example-acknowledgements.plist */,
+				644B423BFD7DA73FA8B7A91C042A5BAF /* Pods-GGNLocationPicker_Example-dummy.m */,
+				AF5864126204040CD152B53665478B82 /* Pods-GGNLocationPicker_Example-frameworks.sh */,
+				F0E7F5E30E16FC395838A45159F53D78 /* Pods-GGNLocationPicker_Example-resources.sh */,
+				0E7527EDDCB2DE343349C6CF45B8DFFC /* Pods-GGNLocationPicker_Example-umbrella.h */,
+				72EDF83739EC0A3832A3FDC888CCAB1A /* Pods-GGNLocationPicker_Example.debug.xcconfig */,
+				75073324D9BD680183EE037CB930ED7E /* Pods-GGNLocationPicker_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4C7C475C86F75F78A7F76FA756500DC5 /* GGNLocationPicker */ = {
-			isa = PBXGroup;
-			children = (
-				DCB9934FBCFB228B1A87469B665E5613 /* Classes */,
-			);
-			path = GGNLocationPicker;
+			name = "Pods-GGNLocationPicker_Example";
+			path = "Target Support Files/Pods-GGNLocationPicker_Example";
 			sourceTree = "<group>";
 		};
 		621236D5540CF1B1B719CA439F0E5059 /* GGNObservable */ = {
@@ -203,9 +172,27 @@
 				B3A2C8AA263C9D43937CC1E4681485B1 /* Development Pods */,
 				1CA8632D2E832F2BA7143EA4B4FD0233 /* Frameworks */,
 				D9B340FBC58F74A067CAFDE845DD18E1 /* Pods */,
-				04CB1F5B9F2E548E9B352D85BF8BAE02 /* Products */,
-				3BA1477172D3FA01C22CA4CF3B8178D7 /* Targets Support Files */,
+				8E232E78BFED6598A3A57E92A8996518 /* Products */,
+				D9A7C4E8076ADB7FBAE0F74DDB1B63EA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8E232E78BFED6598A3A57E92A8996518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C6EBDEDC442EE59A245AC3D8C59C1D9 /* GGNLocationPicker.framework */,
+				19024F2F6A43788B44D3D295B71C7C66 /* GGNObservable.framework */,
+				98C36B41A56E9451F874C8DFDD78FFEA /* Pods_GGNLocationPicker_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E76846AF6DC7243B1114E16474111B4 /* GGNLocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CE492F5B5BCBB22AF5FF10DC3258E1AF /* Classes */,
+			);
+			path = GGNLocationPicker;
 			sourceTree = "<group>";
 		};
 		B3A2C8AA263C9D43937CC1E4681485B1 /* Development Pods */ = {
@@ -216,24 +203,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B607AB06A21954916304527BD518D061 /* Pods-GGNLocationPicker_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				77F0DA958813CE8BC0473EE9C3A856B4 /* Info.plist */,
-				F6D11BA1BDB4568E09E32288500741E1 /* Pods-GGNLocationPicker_Tests.modulemap */,
-				4E1FE1C67560DD99761EFCE794E643E4 /* Pods-GGNLocationPicker_Tests-acknowledgements.markdown */,
-				CC6843B913CB354368CA04D59B87BA58 /* Pods-GGNLocationPicker_Tests-acknowledgements.plist */,
-				0E3BF452032C3788B27F71F157C2C3E9 /* Pods-GGNLocationPicker_Tests-dummy.m */,
-				A2CAB59147A099AC58C197874354005B /* Pods-GGNLocationPicker_Tests-frameworks.sh */,
-				D354BB5334177D54331747470D5F1374 /* Pods-GGNLocationPicker_Tests-resources.sh */,
-				00BE65BA17DF9B83E724864744E5650A /* Pods-GGNLocationPicker_Tests-umbrella.h */,
-				E4E10287F9970AA6804E76C2C32A7DD9 /* Pods-GGNLocationPicker_Tests.debug.xcconfig */,
-				3CE9FCCFEBEF3FBEB0F1F1E9CD169D9A /* Pods-GGNLocationPicker_Tests.release.xcconfig */,
-			);
-			name = "Pods-GGNLocationPicker_Tests";
-			path = "Target Support Files/Pods-GGNLocationPicker_Tests";
-			sourceTree = "<group>";
-		};
 		BFC6138135934017851E1E9185021C68 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,51 +211,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C3FC6E94E1C792D1AC95AFE79915C5EF /* SwiftSupport */ = {
+		CE492F5B5BCBB22AF5FF10DC3258E1AF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				848C402D439EB9B5972AECCE4084C23C /* SwiftSupport.swift */,
+				24E68CF2AB7623AAE2144453EFACB125 /* LocationPickerDelegate.swift */,
+				9067D93770DC04C6CD2C0FBF11635885 /* LocationPickerVC.swift */,
+				214B9EBDE6CA2BE47F21D13D8F1E25EC /* LocationPickerVM.swift */,
+				02FDD7463BCEDE5E344517A946E21CC5 /* LocationService.swift */,
+				4E5DBF0F865B08DBDCFC9C883B49C81C /* SearchService.swift */,
 			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		C6811A0D12E82EF910B331D1AD29ACB5 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				48F777E25ED36E70CE87097188DADEAA /* FBSnapshotTestCase.h */,
-				996E10C05D249B0C3EDF6C9DFA69D9A1 /* FBSnapshotTestCase.m */,
-				2518F997765A59F844B6A841E7723FA7 /* FBSnapshotTestCasePlatform.h */,
-				E6015044230FFD0F7A4F16DFBDC93317 /* FBSnapshotTestCasePlatform.m */,
-				CE16A61DE504E60CA22D58C451BB9522 /* FBSnapshotTestController.h */,
-				8DF1B41E38EDD94E1ED1FE9BC999DEF1 /* FBSnapshotTestController.m */,
-				343674D42E32EDD0CE20C345A267EE72 /* UIApplication+StrictKeyWindow.h */,
-				1C4735107E92082DC6617FC47323AC36 /* UIApplication+StrictKeyWindow.m */,
-				BF446B28545341AFF094A94F8633BDF6 /* UIImage+Compare.h */,
-				D7E3C353118B3E2CA476674EC4BBCED6 /* UIImage+Compare.m */,
-				599644A4F7E0D425F0BAAE68F5028FBE /* UIImage+Diff.h */,
-				36C9BFB4E392CEED3BC63CB05F5EADAF /* UIImage+Diff.m */,
-				F6D33E22C1EA1BEFBD331FD3AE10D062 /* UIImage+Snapshot.h */,
-				B28003917869A306C9497FB3139B5550 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		D441B1EA69DD619064D3CE1E8B0E6506 /* Pods-GGNLocationPicker_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E01AF8E6E81ABAE858A46E6DB67A4F4D /* Info.plist */,
-				6E73DA28624D553FFC61F335D5DEA726 /* Pods-GGNLocationPicker_Example.modulemap */,
-				A85266DE3029CF2BE64500E051F910C1 /* Pods-GGNLocationPicker_Example-acknowledgements.markdown */,
-				79EFF071BFAF3094ECB14695E8B878A2 /* Pods-GGNLocationPicker_Example-acknowledgements.plist */,
-				1B6EEDAC58F131075881D08A908CAC45 /* Pods-GGNLocationPicker_Example-dummy.m */,
-				8B9B489B50EF5243D615D50E4D046EA8 /* Pods-GGNLocationPicker_Example-frameworks.sh */,
-				DADE6E0DA479F8AB2B63E489D66F1CD9 /* Pods-GGNLocationPicker_Example-resources.sh */,
-				CEBD6461E95A16CF774C5DE75532C382 /* Pods-GGNLocationPicker_Example-umbrella.h */,
-				BB793AA81914EBA10265AA6CBB98FA91 /* Pods-GGNLocationPicker_Example.debug.xcconfig */,
-				EF69B53BB98A501E25D2EB81CADAA306 /* Pods-GGNLocationPicker_Example.release.xcconfig */,
-			);
-			name = "Pods-GGNLocationPicker_Example";
-			path = "Target Support Files/Pods-GGNLocationPicker_Example";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D5FFDE54351FEE208FF8A00CD7E8868A /* Support Files */ = {
@@ -303,6 +237,14 @@
 			path = "Example/Pods/Target Support Files/GGNLocationPicker";
 			sourceTree = "<group>";
 		};
+		D9A7C4E8076ADB7FBAE0F74DDB1B63EA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E092276B146E8729184E60E6B4C17 /* Pods-GGNLocationPicker_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		D9B340FBC58F74A067CAFDE845DD18E1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,22 +253,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DCB9934FBCFB228B1A87469B665E5613 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E548C5B5A01C966753CFEE796DCFE524 /* LocationPickerDelegate.swift */,
-				F87F8195EBA88AF1EC8BEB5F4E098656 /* LocationPickerVC.swift */,
-				2472A3054F378661AA970C2208DAC5FD /* LocationPickerVM.swift */,
-				F99BBD8267EA094A9F6B12A5328DCF7B /* LocationService.swift */,
-				1775E6E02254EA9147F3E2D0A2BCA930 /* SearchService.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		EAE074900127EC39AF58814D9B006874 /* GGNLocationPicker */ = {
 			isa = PBXGroup;
 			children = (
-				4C7C475C86F75F78A7F76FA756500DC5 /* GGNLocationPicker */,
+				9E76846AF6DC7243B1114E16474111B4 /* GGNLocationPicker */,
 				D5FFDE54351FEE208FF8A00CD7E8868A /* Support Files */,
 			);
 			name = GGNLocationPicker;
@@ -336,19 +266,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2285A1B0B7AF22C8C6A19DEF993BD4AC /* Headers */ = {
+		08044B619207741E3671F4106665E3F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37937E120DE6DA07593440BD61E3A6CA /* Pods-GGNLocationPicker_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4899E068A9F991EC618BD04E8BEA07B0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				808D1FF3E8B9898C5071B2C1E160AAEB /* GGNObservable-umbrella.h in Headers */,
+				B88780132429F1896CCBF6B7710CBF82 /* GGNLocationPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,24 +282,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EE52F763BA904E50C71D6B4C743341 /* Headers */ = {
+		75EC57A06A5CEFDE43C4AD55CC88E645 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15798CE5772EF5451B79ACF26F033790 /* GGNLocationPicker-umbrella.h in Headers */,
+				A2BD2EBBCCABDCE9E2BE2967AABB19EB /* GGNObservable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4517D5197D80A051E55C9C2FD12672EC /* GGNObservable */ = {
+		5B7E84893320C49A23EC4B199620AC66 /* GGNObservable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45DDB7E50CC5B3921BE63201A83036A0 /* Build configuration list for PBXNativeTarget "GGNObservable" */;
+			buildConfigurationList = 1888A57BB5B2445A2112D5CBDDD6A252 /* Build configuration list for PBXNativeTarget "GGNObservable" */;
 			buildPhases = (
-				1634B1D502B822E232EFEE160D565AE1 /* Sources */,
-				7B1D117E98A6D28F04A5B1C01B8E714E /* Frameworks */,
-				4899E068A9F991EC618BD04E8BEA07B0 /* Headers */,
+				29D9AA9FE1434220131220E3D64FA587 /* Sources */,
+				1F439889B968940C3FB399A6D477E95B /* Frameworks */,
+				75EC57A06A5CEFDE43C4AD55CC88E645 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -385,42 +307,25 @@
 			);
 			name = GGNObservable;
 			productName = GGNObservable;
-			productReference = 12D7BF46C4F70CDBB812C4BC5A02631E /* GGNObservable.framework */;
+			productReference = 19024F2F6A43788B44D3D295B71C7C66 /* GGNObservable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5362E9971E7B9C3B0DDB0109A7B96661 /* GGNLocationPicker */ = {
+		5F54A9F27D1889E4AFBCF4CC4968936B /* GGNLocationPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8E9B3AF9B7927BC891AE5B1E80CEFE1 /* Build configuration list for PBXNativeTarget "GGNLocationPicker" */;
+			buildConfigurationList = 2BD71FC4D6446C5A74A57D40F010A87D /* Build configuration list for PBXNativeTarget "GGNLocationPicker" */;
 			buildPhases = (
-				A5A3A1D55C5CBADAD463501E66262581 /* Sources */,
-				28A1C8F792892B38250B898673D7949A /* Frameworks */,
-				A6EE52F763BA904E50C71D6B4C743341 /* Headers */,
+				B77F80876BAE94A7F109BB6325DFC932 /* Sources */,
+				25710E7CC7C79160945C28015EE4C6F4 /* Frameworks */,
+				08044B619207741E3671F4106665E3F8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9B018542528C65AC080D5B3E33D3F440 /* PBXTargetDependency */,
+				B3953D2C19B94F5E60EA4A0961263589 /* PBXTargetDependency */,
 			);
 			name = GGNLocationPicker;
 			productName = GGNLocationPicker;
-			productReference = ABBC24A26B8594B720383CAB8D5D77D6 /* GGNLocationPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AED313B6A605B179A8BAF28A7F9E577B /* Pods-GGNLocationPicker_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C7A376B58284498396A6F2F4A46288E /* Build configuration list for PBXNativeTarget "Pods-GGNLocationPicker_Tests" */;
-			buildPhases = (
-				71C0A7B88403205F0DEAE1989F66A109 /* Sources */,
-				9DBEF8DDD1E25670B89E3BF341EFCE18 /* Frameworks */,
-				2285A1B0B7AF22C8C6A19DEF993BD4AC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-GGNLocationPicker_Tests";
-			productName = "Pods-GGNLocationPicker_Tests";
-			productReference = 8EBA1BA4371BDD12DE6DAABF0D65C730 /* Pods_GGNLocationPicker_Tests.framework */;
+			productReference = 9C6EBDEDC442EE59A245AC3D8C59C1D9 /* GGNLocationPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F7880F81341E4057F07C6CCD9FDA584C /* Pods-GGNLocationPicker_Example */ = {
@@ -439,7 +344,7 @@
 			);
 			name = "Pods-GGNLocationPicker_Example";
 			productName = "Pods-GGNLocationPicker_Example";
-			productReference = 45ACFC2EED402F319F3654E02A157F28 /* Pods_GGNLocationPicker_Example.framework */;
+			productReference = 98C36B41A56E9451F874C8DFDD78FFEA /* Pods_GGNLocationPicker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -459,46 +364,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 04CB1F5B9F2E548E9B352D85BF8BAE02 /* Products */;
+			productRefGroup = 8E232E78BFED6598A3A57E92A8996518 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5362E9971E7B9C3B0DDB0109A7B96661 /* GGNLocationPicker */,
-				4517D5197D80A051E55C9C2FD12672EC /* GGNObservable */,
+				5F54A9F27D1889E4AFBCF4CC4968936B /* GGNLocationPicker */,
+				5B7E84893320C49A23EC4B199620AC66 /* GGNObservable */,
 				F7880F81341E4057F07C6CCD9FDA584C /* Pods-GGNLocationPicker_Example */,
-				AED313B6A605B179A8BAF28A7F9E577B /* Pods-GGNLocationPicker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1634B1D502B822E232EFEE160D565AE1 /* Sources */ = {
+		29D9AA9FE1434220131220E3D64FA587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B447FA30F1A8FB736B7CCA1E6E7EB39 /* GGNObservable-dummy.m in Sources */,
-				43E4F707F7A748B64D6A18997A570617 /* Observable.swift in Sources */,
+				D0B83B26AECA8476719CD6C1B355F170 /* GGNObservable-dummy.m in Sources */,
+				7274A9E1EA039490F32DC3A46EAF3779 /* Observable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71C0A7B88403205F0DEAE1989F66A109 /* Sources */ = {
+		B77F80876BAE94A7F109BB6325DFC932 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A935166F3058EC793003533B4831DF9 /* Pods-GGNLocationPicker_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5A3A1D55C5CBADAD463501E66262581 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AA79E8C866CB4411ACB7B0648446CCF /* GGNLocationPicker-dummy.m in Sources */,
-				C126F4E86F992AF17E0EB8873A4070E2 /* LocationPickerDelegate.swift in Sources */,
-				BA8A1BF7039A39A9AB02993DF025FC0B /* LocationPickerVC.swift in Sources */,
-				030D096B7BEBE7D433AF340F85948DF2 /* LocationPickerVM.swift in Sources */,
-				23B4BADDEDBBF87E148BA7C91144BEC2 /* LocationService.swift in Sources */,
-				32C8B8B190DB52A6DC27F85AD37519A4 /* SearchService.swift in Sources */,
+				B154481DA3E135148E8634A97BE2B376 /* GGNLocationPicker-dummy.m in Sources */,
+				97B5E5223203B321B7946BBD6F652EB3 /* LocationPickerDelegate.swift in Sources */,
+				D0655EDD35A0A24DD47D0C9C890CF74A /* LocationPickerVC.swift in Sources */,
+				6350EDEA556631155CA5F1B292838073 /* LocationPickerVM.swift in Sources */,
+				17E98B2343D38DDE5488FD65DADB5874 /* LocationService.swift in Sources */,
+				9B5C201767CB5F02CF1E28440959605E /* SearchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,34 +409,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9B018542528C65AC080D5B3E33D3F440 /* PBXTargetDependency */ = {
+		B3953D2C19B94F5E60EA4A0961263589 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGNObservable;
-			target = 4517D5197D80A051E55C9C2FD12672EC /* GGNObservable */;
-			targetProxy = E51E2828DA5B079FA96FB47C71B6C27A /* PBXContainerItemProxy */;
+			target = 5B7E84893320C49A23EC4B199620AC66 /* GGNObservable */;
+			targetProxy = D3E2E476A6FB63B7B7B6D0412BC2C9CF /* PBXContainerItemProxy */;
 		};
 		CFD7CCC527279F2390A2C4BD62F0411A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGNObservable;
-			target = 4517D5197D80A051E55C9C2FD12672EC /* GGNObservable */;
+			target = 5B7E84893320C49A23EC4B199620AC66 /* GGNObservable */;
 			targetProxy = B776553C1D9F27E4463F40BE1BD7ED32 /* PBXContainerItemProxy */;
 		};
 		E1B458959E209FE088D5D71B20C93568 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGNLocationPicker;
-			target = 5362E9971E7B9C3B0DDB0109A7B96661 /* GGNLocationPicker */;
+			target = 5F54A9F27D1889E4AFBCF4CC4968936B /* GGNLocationPicker */;
 			targetProxy = 9C42F5AD08FC0FA7E02A0128341BA44D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15FC5987F49F4E46DDCBF9A6B6810EB2 /* Debug */ = {
+		033AC260D3458FF1A317001E301D29C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A572FA88631784871F05C5C96B69AB3 /* GGNObservable.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -553,38 +449,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GGNObservable/GGNObservable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GGNObservable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2A4FF2A8A45A32B884E2317107DE72DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 971C69E4800BC36102C403E4FF15D0F8 /* GGNLocationPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GGNLocationPicker/GGNLocationPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGNLocationPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGNLocationPicker/GGNLocationPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GGNLocationPicker;
+				PRODUCT_NAME = GGNObservable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,11 +461,11 @@
 		};
 		3CB978208ADDD40222C5806206F2CED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF69B53BB98A501E25D2EB81CADAA306 /* Pods-GGNLocationPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 72EDF83739EC0A3832A3FDC888CCAB1A /* Pods-GGNLocationPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -612,7 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GGNLocationPicker_Example/Pods-GGNLocationPicker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -620,11 +486,12 @@
 				PRODUCT_NAME = Pods_GGNLocationPicker_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -666,9 +533,9 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Release;
+			name = Debug;
 		};
-		67930D0454868E7DA8FC7E494952B9E7 /* Debug */ = {
+		48E75ADDDFD2AF27B9FBA40F15AE2BCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 971C69E4800BC36102C403E4FF15D0F8 /* GGNLocationPicker.xcconfig */;
 			buildSettings = {
@@ -689,35 +556,6 @@
 				MODULEMAP_FILE = "Target Support Files/GGNLocationPicker/GGNLocationPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = GGNLocationPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		71CD0069A62CAF6F1E7E6DD7C43970E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A572FA88631784871F05C5C96B69AB3 /* GGNObservable.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GGNObservable/GGNObservable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGNObservable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGNObservable/GGNObservable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GGNObservable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -764,42 +602,9 @@
 			};
 			name = Release;
 		};
-		B3BB278CD59E4C0224E732B9431882EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CE9FCCFEBEF3FBEB0F1F1E9CD169D9A /* Pods-GGNLocationPicker_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GGNLocationPicker_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGNLocationPicker_Tests/Pods-GGNLocationPicker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GGNLocationPicker_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BCAC811D2060A50494F25221F88AE9B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF69B53BB98A501E25D2EB81CADAA306 /* Pods-GGNLocationPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 75073324D9BD680183EE037CB930ED7E /* Pods-GGNLocationPicker_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -830,7 +635,37 @@
 			};
 			name = Release;
 		};
-		D62AB5838DF8184C99D8C39BE2B557B1 /* Debug */ = {
+		C1E9B04BD56116F0C314A02875D712B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A572FA88631784871F05C5C96B69AB3 /* GGNObservable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GGNObservable/GGNObservable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGNObservable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGNObservable/GGNObservable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GGNObservable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4BB1A43B41BC48825E508A8283779A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 971C69E4800BC36102C403E4FF15D0F8 /* GGNLocationPicker.xcconfig */;
 			buildSettings = {
@@ -863,11 +698,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C7A376B58284498396A6F2F4A46288E /* Build configuration list for PBXNativeTarget "Pods-GGNLocationPicker_Tests" */ = {
+		1888A57BB5B2445A2112D5CBDDD6A252 /* Build configuration list for PBXNativeTarget "GGNObservable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67930D0454868E7DA8FC7E494952B9E7 /* Debug */,
-				B3BB278CD59E4C0224E732B9431882EF /* Release */,
+				C1E9B04BD56116F0C314A02875D712B5 /* Debug */,
+				033AC260D3458FF1A317001E301D29C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD71FC4D6446C5A74A57D40F010A87D /* Build configuration list for PBXNativeTarget "GGNLocationPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB1A43B41BC48825E508A8283779A4 /* Debug */,
+				48E75ADDDFD2AF27B9FBA40F15AE2BCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -881,38 +725,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45DDB7E50CC5B3921BE63201A83036A0 /* Build configuration list for PBXNativeTarget "GGNObservable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				15FC5987F49F4E46DDCBF9A6B6810EB2 /* Debug */,
-				71CD0069A62CAF6F1E7E6DD7C43970E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7F8FB98545A80F301550B72E729212D4 /* Build configuration list for PBXNativeTarget "Pods-GGNLocationPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CB978208ADDD40222C5806206F2CED2 /* Debug */,
 				BCAC811D2060A50494F25221F88AE9B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8E9B3AF9B7927BC891AE5B1E80CEFE1 /* Build configuration list for PBXNativeTarget "GGNLocationPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D62AB5838DF8184C99D8C39BE2B557B1 /* Debug */,
-				2A4FF2A8A45A32B884E2317107DE72DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E79E3307F8E35B574D18D1481D0D370D /* Build configuration list for PBXNativeTarget "GGNLocationPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C860B4C7590D426614FC106BAE80240 /* Debug */,
-				C557A4BE170D7200BABE26523A4D47CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
