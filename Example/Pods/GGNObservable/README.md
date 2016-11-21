@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/GGNObservable.svg?style=flat)](http://cocoapods.org/pods/GGNObservable)
 [![Platform](https://img.shields.io/cocoapods/p/GGNObservable.svg?style=flat)](http://cocoapods.org/pods/GGNObservable)
 
+## Documentation
+
+View the API reference by following [this link](https://garricn.github.io/GGNObservable/Classes/Observable.html)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
