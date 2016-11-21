@@ -20,7 +20,7 @@
   "source_files": "GGNLocationPicker/Classes/**/*",
   "dependencies": {
     "GGNObservable": [
-
+      "~> 1.0"
     ]
   }
 }
