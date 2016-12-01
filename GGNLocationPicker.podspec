@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/garricn/GGNLocationPicker.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'GGNLocationPicker/Classes/**/*'
-  s.dependency 'GGNObservable', '~> 1.0'
+  s.dependency 'GGNObservable', '~> 2.0'
 end

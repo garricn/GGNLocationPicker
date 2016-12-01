@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let coordinate = CLLocationCoordinate2D(latitude: 34.0, longitude: -118.24)
         let annotation = MKPointAnnotation()
         annotation.coordinate = coordinate
@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         let navigationController = UINavigationController(rootViewController: locationPicker)
-        let frame = UIScreen.mainScreen().bounds
+        let frame = UIScreen.main.bounds
         window = UIWindow(frame: frame)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 extension AppDelegate: LocationPickerDelegate {
-    func didPick(annotation: MKAnnotation) {
+    func didPick(_ annotation: MKAnnotation) {
         print(annotation)
     }
 }
