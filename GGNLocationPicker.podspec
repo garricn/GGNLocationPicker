@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GGNLocationPicker'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'Easily present a view controller for picking a location.'
   s.homepage         = 'https://github.com/garricn/GGNLocationPicker'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/garricn/GGNLocationPicker.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'GGNLocationPicker/Classes/**/*'
-  s.dependency 'GGNObservable', '~> 1.0'
+  s.dependency 'GGNObservable', '~> 2.0'
 end

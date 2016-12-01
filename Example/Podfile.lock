@@ -1,7 +1,7 @@
 PODS:
-  - GGNLocationPicker (0.1.2):
-    - GGNObservable (~> 1.0)
-  - GGNObservable (1.0.0)
+  - GGNLocationPicker (2.0.0):
+    - GGNObservable (~> 2.0)
+  - GGNObservable (2.0.0)
 
 DEPENDENCIES:
   - GGNLocationPicker (from `../`)
@@ -11,9 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GGNLocationPicker: ded9f25cdb94d8a88286ee470467b8b7057eb5ea
-  GGNObservable: 927371355e2fc880e134de9c015c4b244d95e015
+  GGNLocationPicker: 66b63b5b21b7a6b4f20ac25c5d847a611fa32771
+  GGNObservable: 9b6317f9bf72faa71b4d54951309df0d1b0ed419
 
-PODFILE CHECKSUM: 672f5ca3a4d8998ae68a99b0b7bea8897e811807
+PODFILE CHECKSUM: fafced3b95b53056315b136ec81f56bb84650f38
 
 COCOAPODS: 1.1.1
